@@ -1,6 +1,6 @@
 
     document.getElementById('testButton').addEventListener('click', () => {
-        fetch('http://52.184.64.194/api/v1/documents', {
+        fetch('https://52.184.64.194/api/v1/documents', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json'
